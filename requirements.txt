@@ -1,0 +1,18 @@
+# core (CNN training and explanation)
+torch>=2.1
+torchvision
+numpy
+pillow
+matplotlib
+
+# vision-language models (captions, Phi-4 prompting, projector)
+transformers>=4.51
+accelerate
+qwen-vl-utils
+# Phi-4-multimodal remote code also needs:
+peft
+backoff
+scipy
+soundfile
+# optional, recommended for Phi-4 (otherwise pass --attn-implementation eager):
+# flash-attn
